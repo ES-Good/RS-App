@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS-App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body class="d-grid-top-block">
+    <header class="bg-dark header">
+        <div class="container container_big">
+            <a href="/" class="logo">
+                <img src="img/logo.svg" alt="logo" class="logo__img">
+            </a>
+        </div>
+    </header>
+    <section class="top-block">
+        <div class="top-block__inner">
+            <div class="container container_medium">
+                <div class="top-block__info">
+                    <h1 class="title-lvl1 fw-700">
+                        Отправьте одну заявку <br> на кредит или рассрочку сразу в несколько банков
+                    </h1>
+    
+                    <h2 class="top-block__description color-hoar">
+                        Менеджер свяжется с вами по телефону и расскажет<br> об одобренных предложениях
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="ques-block">
+        <div class="container container_medium">
+            <div class="ques-block__header">
+                <p class="title-lvl3 fw-700 color-excel ques-block__title">Шаг 1</p>
+                <p class="text-big">
+                    Данные о Клиенте
+                </p>
+
+                <div class="progress-bar">
+                    <div class="progress-bar__line progress-bar__line_active"></div>
+                    <div class="progress-bar__line"></div>
+                    <div class="progress-bar__line"></div>
+                </div>
+            </div>
+
+            <div class="ques-block__main">
+                <div class="ques-block__input-box input-box">
+                    <input type="text" id="family-name" class="input-box__input">
+                    <label for="family-name" class="input-box__placeholder">Фамилия</label>
+                </div>
+                <div class="ques-block__input-box input-box input-box_active">
+                    <input type="text" id="name" class="input-box__input" value="Иван">
+                    <label for="name" class="input-box__placeholder">Имя</label>
+                </div>
+                <div class="ques-block__input-box input-box">
+                    <input type="text" id="surname" class="input-box__input">
+                    <label for="surname" class="input-box__placeholder">Отчество</label>
+                    
+                    <input type="checkbox" name="" id="no-surname" class="input-box__chackbox">
+                    <label for="no-surname" class="text-small">Нет отчества</label>
+                </div>
+                <div class="ques-block__input-box input-box input-box_active">
+                    <select name="floor" class="input-box__select">
+                        <option value="male">Мужской</option>
+                        <option value="female">Женский</option>
+                    </select>
+                    <label class="input-box__placeholder">Имя</label>
+                </div>
+                <div class="ques-block__input-box input-box input-box_active">
+                    <input type="text" id="date" class="input-box__input" value="25.08.1987">
+                    <label for="date" class="input-box__placeholder">Дата рождения</label>
+                </div>
+                <div class="ques-block__input-box input-box input-box_active">
+                    <input type="text" id="phone" class="input-box__input" value="+7 (966) 654 23 75">
+                    <label for="phone" class="input-box__placeholder">Мобильный телфон</label>
+                </div>
+
+                <div class="ques-block__input-box input-box">
+                    <input type="text" id="promoter-code" class="input-box__input">
+                    <label for="promoter-code" class="input-box__placeholder">Код проумоутера*</label>
+                    <p class="text-small">Если есть</p>
+                </div>
+
+            </div>
+
+            <div class="ques-block__footer">
+                <button class="btn btn_green">
+                    Далее
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer bg-dark">
+        <div class="container container_big">
+            <div class="footer__info-block">
+                <p class="color-white footer__info-text footer__company-age">
+                    © 2017 - 2023 АО «Банк Русский Стандарт». 
+                </p>
+                <p class="footer__info-text color-light-hoar">
+                    Генеральная лицензия Банка России № 2289 выдана бессрочно 19 ноября 2014 года
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

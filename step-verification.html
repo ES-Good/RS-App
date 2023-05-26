@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS-App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body class="d-grid">
+    <header class="bg-dark header">
+        <div class="container container_big">
+            <a href="/" class="logo">
+                <img src="img/logo.svg" alt="logo" class="logo__img">
+            </a>
+        </div>
+    </header>
+    <main class="ques-block">
+        <div class="container container_medium">
+
+
+            <div class="ques-block__main">
+                <div class="block-verification main-white-box">
+                    <div class="block-verification__header">
+                        <p class="title-lvl1 fw-700 block-verification__title ">
+                            Согласие на дистанционное взаимодействие
+                        </p>
+                    </div>
+
+                    <div class="block-verification__code-block">
+                        <p class="block-verification__title-code-block">
+                            Введите код из СМС
+                        </p>
+                        <form id="sms-code" action="#" class="block-verification__inputs-box">
+                            <input type="text" maxlength="1" class="block-verification__input-num" value="1">
+                            <input type="text" maxlength="1" class="block-verification__input-num" value="2">
+                            <input type="text" maxlength="1" class="block-verification__input-num">
+                            <input type="text" maxlength="1" class="block-verification__input-num">
+                        </form>
+                    </div>
+
+                    <button form="sms-code" class="btn btn_green">
+                        Подтвердить
+                    </button>
+
+                    <p class="text-small block-verification__repeated-text">
+                        Отправить СМС повторно можно через <span>20</span> сек
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer bg-dark">
+        <div class="container container_big">
+            <div class="footer__info-block">
+                <p class="color-white footer__info-text footer__company-age">
+                    © 2017 - 2023 АО «Банк Русский Стандарт». 
+                </p>
+                <p class="footer__info-text color-light-hoar">
+                    Генеральная лицензия Банка России № 2289 выдана бессрочно 19 ноября 2014 года
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

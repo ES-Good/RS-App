@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS-App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body class="d-grid">
+    <header class="bg-dark header">
+        <div class="container container_big">
+            <a href="/" class="logo">
+                <img src="img/logo.svg" alt="logo" class="logo__img">
+            </a>
+        </div>
+    </header>
+    <main class="ques-block">
+        <div class="container container_medium">
+            <div class="ques-block__header">
+                <p class="title-lvl3 fw-700 color-excel ques-block__title">Шаг 3</p>
+                <p class="text-big">
+                    Прикрепление изображений
+                </p>
+
+                <div class="progress-bar">
+                    <div class="progress-bar__line progress-bar__line_active"></div>
+                    <div class="progress-bar__line progress-bar__line_active"></div>
+                    <div class="progress-bar__line progress-bar__line_active"></div>
+                </div>
+            </div>
+
+            <div class="ques-block__main">
+                <div class="ques-block__step3-line-header">
+                    <p class="title-lvl3">
+                        Паспорт 
+                    </p>
+                    <p class="color-hoar">
+                        Старайтесь не закрывать пальцами данные и фотографировать при хорошем освещении
+                    </p>
+                </div>
+                <div class="ques-block__step3-line">
+                    <div class="white-info-box">
+                        <div class="white-info-box__ico-box">
+                            <svg viewBox="0 0 51 62" class="white-info-box__ico">
+                                <use xlink:href="img/sprite.svg#ico-passport-photo"></use>
+                            </svg>
+                        </div>
+                        <div class="white-info-box__info white-info-box__info_active">
+                            <p class="white-info-box__title">Разворот паспорта с фотографией</p>
+                            <form action="#" class="white-info-box__form">
+                                <div class="btn-dowland-file">
+                                    <input type="file" id="passport-photo">
+                                    <label for="passport-photo" class="btn btn_green btn-dowland-file__btn">Загрузить</label>
+                                </div>
+                            </form>
+                            <div class="white-info-box__loaded-box">
+                                <p class="text_small color-excel fw-500">
+                                    Загружено
+                                </p>
+
+                                <button class="white-info-box__delete-file btn-add-cross">
+                                    паспорт1.jpeg
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="white-info-box">
+                        <div class="white-info-box__ico-box">
+                            <svg viewBox="0 0 51 62" class="white-info-box__ico">
+                                <use xlink:href="img/sprite.svg#ico-passport-registration"></use>
+                            </svg>
+                        </div>
+                        <div class="white-info-box__info">
+                            <p class="white-info-box__title">Разворот паспорта с пропиской</p>
+                            <form action="#" class="white-info-box__form">
+                                <div class="btn-dowland-file">
+                                    <input type="file" id="ico-passport-registration">
+                                    <label for="ico-passport-registration" class="btn btn_green btn-dowland-file__btn">Загрузить</label>
+                                </div>
+                            </form>
+                            <div class="white-info-box__loaded-box">
+                                <p class="text_small color-excel fw-500">
+                                    Загружено
+                                </p>
+
+                                <button class="white-info-box__delete-file btn-add-cross">
+                                    паспорт1.jpeg
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ques-block__step3-line">
+                    <div class="ques-block__step3-line-header">
+                        <p class="title-lvl3">
+                            Ваша фотография  
+                        </p>
+                        <p class="color-hoar">
+                            Старайтесь держать камеру на уровне глаз и фотографировать при хорошем освещении
+                        </p>
+                    </div>
+                    <div class="white-info-box">
+                        <div class="white-info-box__ico-box">
+                            <svg viewBox="0 0 51 62" class="white-info-box__ico">
+                                <use xlink:href="img/sprite.svg#ico-user-photo"></use>
+                            </svg>
+                        </div>
+                        <div class="white-info-box__info">
+                            <p class="white-info-box__title">Ваша фотография</p>
+                            <form action="#" class="white-info-box__form">
+                                <div class="btn-dowland-file">
+                                    <input type="file" id="user-photo">
+                                    <label for="user-photo" class="btn btn_green btn-dowland-file__btn">Загрузить</label>
+                                </div>
+                            </form>
+                            <div class="white-info-box__loaded-box">
+                                <p class="text_small color-excel fw-500">
+                                    Загружено
+                                </p>
+
+                                <button class="white-info-box__delete-file btn-add-cross">
+                                    паспорт1.jpeg
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ques-block__footer">
+                <div class="ques-block__agreement">
+                    <div class="custom-chack-box">
+                        <input type="checkbox" id="agreement">
+                        <label for="agreement"></label>
+                    </div>
+                    <a href="#" class="ques-block__link-agreement color-excel text-small">
+                        Соглашаюсь с Правилами заполнения заявки и присоединяюсь к Соглашению об использовании ПЭП
+                    </a>
+                </div>
+                <button class="btn ques-block__btn-back btn_transparent color-excel fw-500">
+                    Назад
+                </button>
+                <button class="btn btn_green ques-block__btn-next">
+                    Далее
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer bg-dark">
+        <div class="container container_big">
+            <div class="footer__info-block">
+                <p class="color-white footer__info-text footer__company-age">
+                    © 2017 - 2023 АО «Банк Русский Стандарт». 
+                </p>
+                <p class="footer__info-text color-light-hoar">
+                    Генеральная лицензия Банка России № 2289 выдана бессрочно 19 ноября 2014 года
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

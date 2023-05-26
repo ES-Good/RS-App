@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS-App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body class="d-grid">
+    <header class="bg-dark header">
+        <div class="container container_big">
+            <a href="/" class="logo">
+                <img src="img/logo.svg" alt="logo" class="logo__img">
+            </a>
+        </div>
+    </header>
+    <main class="ques-block">
+        <div class="container container_medium">
+            <div class="ques-block__header">
+                <p class="title-lvl3 fw-700 color-excel ques-block__title">Шаг 2</p>
+                <p class="text-big">
+                    Данные о товарной корзине
+                </p>
+
+                <div class="progress-bar">
+                    <div class="progress-bar__line progress-bar__line_active"></div>
+                    <div class="progress-bar__line progress-bar__line_active"></div>
+                    <div class="progress-bar__line"></div>
+                </div>
+            </div>
+
+            <div class="ques-block__main">
+
+                <div class="basket-goods-grid">
+                    <div class="basket-goods-grid__header">
+                        <div class="basket-goods-grid__name basket-goods-grid__col">
+                            <p class="text-small basket-goods-grid__color-name-header">Наименование товара</p>
+                        </div>
+                        <div class="basket-goods-grid__price basket-goods-grid__col">
+                            <p class="text-small basket-goods-grid__color-name-header">Стоимость</p>
+                        </div>
+                    </div>
+
+                    <div class="basket-goods-grid__list">
+                        <div class="basket-goods-grid__list-name basket-goods-grid__col">
+                            <p class="basket-goods-grid__mobile-description">
+                                Наименование товара
+                            </p>
+                            <p class="basket-goods-grid__line-bot">
+                                Велосипед
+                            </p>
+                        </div>
+                        <div class="basket-goods-grid__list-price basket-goods-grid__col">
+                            <p class="basket-goods-grid__mobile-description">
+                                Стоимость
+                            </p>
+                            <p class="symbol-rub symbol-rub_basket-goods-grid basket-goods-grid__line-bot">
+                                45 630
+                            </p>
+                        </div>
+                        <div class="basket-goods-grid__col basket-goods-grid__col_delete-item">
+                            <button class="basket-goods-grid__btn-delete-item btn-add-cross">
+                                Удалить товар
+                            </button>
+                        </div>
+                    </div>
+                    <div class="basket-goods-grid__list">
+                        <div class="basket-goods-grid__list-name basket-goods-grid__col">
+                            <p class="basket-goods-grid__mobile-description">
+                                Наименование товара
+                            </p>
+                            <p class="basket-goods-grid__line-bot">
+                                Стиральная машина
+                            </p>
+                        </div>
+                        <div class="basket-goods-grid__list-price basket-goods-grid__col">
+                            <p class="basket-goods-grid__mobile-description">
+                                Стоимость
+                            </p>
+                            <p class="symbol-rub symbol-rub_basket-goods-grid basket-goods-grid__line-bot">
+                                25 630
+                            </p>
+                        </div>
+                        <div class="basket-goods-grid__col basket-goods-grid__col_delete-item">
+                            <button class="basket-goods-grid__btn-delete-item btn-add-cross">
+                                Удалить товар
+                            </button>
+                        </div>
+                    </div>
+                    <div class="basket-goods-grid__list">
+                        <div class="basket-goods-grid__list-name basket-goods-grid__col">
+                            <p class="basket-goods-grid__mobile-description">
+                                Наименование товара
+                            </p>
+                            <p class="basket-goods-grid__line-bot">
+                                Наушники
+                            </p>
+                        </div>
+                        <div class="basket-goods-grid__list-price basket-goods-grid__col">
+                            <p class="basket-goods-grid__mobile-description">
+                                Стоимость
+                            </p>
+                            <p class="symbol-rub symbol-rub_basket-goods-grid basket-goods-grid__line-bot">
+                                10 020
+                            </p>
+                        </div>
+                        <div class="basket-goods-grid__col basket-goods-grid__col_delete-item">
+                            <button class="basket-goods-grid__btn-delete-item btn-add-cross">
+                                Удалить товар
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ques-block__data-items-footer">
+                    <div class="ques-block__final-sum">
+                        <p class="text-big fw-500">
+                            Итого:  <span class="color-excel text-rub">147 800.55</span>
+                        </p>
+                    </div>
+                    <button class="ques-block__btn-add-item">
+                        <span class="plus-sign"></span> 
+                        Добавить товар
+                    </button>
+                </div>
+            </div>
+
+            <div class="ques-block__footer">
+                <button class="btn ques-block__btn-back btn_transparent color-excel fw-500">
+                    Назад
+                </button>
+                <button class="btn btn_green ques-block__btn-next">
+                    Далее
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer bg-dark">
+        <div class="container container_big">
+            <div class="footer__info-block">
+                <p class="color-white footer__info-text footer__company-age">
+                    © 2017 - 2023 АО «Банк Русский Стандарт». 
+                </p>
+                <p class="footer__info-text color-light-hoar">
+                    Генеральная лицензия Банка России № 2289 выдана бессрочно 19 ноября 2014 года
+                </p>
+            </div>
+        </div>
+    </footer>
+    <div class="modal-overlay">
+        <div class="modal modal_add-product">
+            <p class="title-lvl3 fw-700">
+                Создать товар
+            </p>
+            <form action="#" class="modal__form">
+                <div class="modal__input-box input-box">
+                    <input type="text" id="name-roduct" class="input-box__input">
+                    <label for="name-roduct" class="input-box__placeholder">Наименование товара</label>
+                </div>
+                <div class="modal__input-box input-box input-box_active">
+                    <input type="text" id="price-roduct" class="input-box__input" value="12 000 ₽ ">
+                    <label for="price-roduct" class="input-box__placeholder">Стоимость</label>
+                </div>
+
+                <button class="btn btn_modal-green btn_green">
+                    Добавить
+                </button>
+            </form>
+            <button class="modal__close-btn"></button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
