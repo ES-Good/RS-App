@@ -1,42 +1,19 @@
 
 <ul>
     <li>
-        Шаг 1(он же индекс) <br>
-        https://es-good.github.io/RS-App/
+        <a href="https://es-good.github.io/RS-App/">Шаг 1(он же индекс)</a>
     </li>
     <li>
-        Шаг 2 <br>
-        https://es-good.github.io/RS-App/step-2.html
+        <a href="https://es-good.github.io/RS-App/step-2.html">Шаг 2</a>
+        <a href="https://es-good.github.io/RS-App/step-2-open-modal.html">Шаг 2(открытое модальное окно)</a>
     </li>
     <li>
-        Шаг 2 <br>
-        https://es-good.github.io/RS-App/step-2.html
-        <br>
-        Шаг 2(открытое модальное окно) <br>
-        https://es-good.github.io/RS-App/step-2.html
+        <a href="https://es-good.github.io/RS-App/step-3.html">Шаг 3</a>
     </li>
     <li>
-        Шаг 2 <br>
-        https://es-good.github.io/RS-App/step-2.html
-        <br>
-        Шаг 2(открытое модальное окно) <br>
-        https://es-good.github.io/RS-App/step-2.html
+        <a href="https://es-good.github.io/RS-App/step-verification.html">Шаг c смс подстверждением</a>
     </li>
     <li>
-        Шаг 3 <br>
-        https://es-good.github.io/RS-App/step-3.html
+        <a href="https://es-good.github.io/RS-App/step-last.html">Шаг последний</a>
     </li>
-    <li>
-        Шаг c смс подстверждением <br>
-        https://es-good.github.io/RS-App/step-3.html
-    </li>
-    <li>
-        Шаг c смс подстверждением <br>
-        https://es-good.github.io/RS-App/step-3.html
-    </li>
-    <li>
-        Шаг последний <br>
-        https://es-good.github.io/RS-App/step-last.html
-    </li>
-    
 </ul>
